@@ -31,6 +31,11 @@ const BRAZILIAN_CITIES = [
   { id: 18, name: 'Aracaju', region: 'SE', country: 'Brazil', lat: -10.9472, lon: -37.0731 },
   { id: 19, name: 'Campo Grande', region: 'MS', country: 'Brazil', lat: -20.4435, lon: -54.6478 },
   { id: 20, name: 'Teresina', region: 'PI', country: 'Brazil', lat: -5.0892, lon: -42.8096 },
+  { id: 21, name: 'Belém', region: 'PA', country: 'Brazil', lat: -1.4558, lon: -48.4902 },
+  { id: 22, name: 'Ananindeua', region: 'PA', country: 'Brazil', lat: -1.3656, lon: -48.3722 },
+  { id: 23, name: 'Santarém', region: 'PA', country: 'Brazil', lat: -2.4385, lon: -54.6996 },
+  { id: 24, name: 'Marabá', region: 'PA', country: 'Brazil', lat: -5.3807, lon: -49.1327 },
+  { id: 25, name: 'Parauapebas', region: 'PA', country: 'Brazil', lat: -6.0678, lon: -49.9037 },
 ];
 
 export interface CitySearchResult {

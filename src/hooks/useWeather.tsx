@@ -5,9 +5,9 @@ import { WeatherData, TemperatureUnit, ForecastDay } from '../types/weather';
 const API_KEY = import.meta.env.VITE_WEATHERAPI_KEY;
 
 // WeatherAPI.com endpoints
-const CURRENT_WEATHER_URL = 'http://api.weatherapi.com/v1/current.json';
-const FORECAST_URL = 'http://api.weatherapi.com/v1/forecast.json';
-const SEARCH_URL = 'http://api.weatherapi.com/v1/search.json';
+const CURRENT_WEATHER_URL = 'https://api.weatherapi.com/v1/current.json';
+const FORECAST_URL = 'https://api.weatherapi.com/v1/forecast.json';
+const SEARCH_URL = 'https://api.weatherapi.com/v1/search.json';
 
 // Lista pré-configurada das principais cidades brasileiras
 const BRAZILIAN_CITIES = [
